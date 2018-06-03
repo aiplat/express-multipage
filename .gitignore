@@ -1,0 +1,8 @@
+node_modules/
+.vscode/
+.idea/
+.vs/
+www_logs/
+nbproject/
+views_assets/bundle/
+npm-debug.log

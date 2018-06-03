@@ -1,0 +1,22 @@
+{
+  "name": "express-multipage",
+  "script": "./build.js",
+  "watch": true,
+  "ignore_watch": [
+    "node_modules",
+    "www_logs",
+    ".vscode",
+    ".idea",
+    ".vs",
+    "nbproject",
+    "views",
+    "views_actions",
+    "views_assets"
+  ],
+  "error_file": "./www_logs/app_err.log",
+  "out_file": "./www_logs/app_out.log",
+  "pid_file": "./www_logs/app_pid.log",
+  "env": {
+    "NODE_ENV": "develop"
+  }
+}

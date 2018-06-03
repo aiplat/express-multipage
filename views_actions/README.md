@@ -1,0 +1,4 @@
+#bundle目录目前未使用
+#common为公共js目录
+#components为组件js目录
+#single为views中html对应的js文件目录

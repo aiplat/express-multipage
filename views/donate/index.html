@@ -1,0 +1,37 @@
+<% include ../common/header.html %>
+	<div class="cm_main2">
+		<div class="cm_main">
+				<% include ../components/head.html %>
+			<ul class="cm_pc_12 cm_mtb3">
+				<li class="cm_pc_12 cm_prl05 cm_lh105 cm_ti2 cm_mtb05">
+					<span class="">
+						<%=indexData.desc%>
+					</span>
+				</li>
+				<li class="cm_pc_12 cm_tc cm_mb05" id="dlist">
+					<%var dlen = indexData.dnarr.length;
+					for(var i3=0;i3<dlen;i3++){%>
+						<div class="cm_pc_6 cm_hl2 <%if(i3==0){%>cm_c1b cm_cf<%}else{%>cm_be<%}%>">
+							<%=indexData.dnarr[i3].name%>
+						</div>
+						<%}%>
+				</li>
+				<li class="cm_pc_12 cm_mb05">
+					<%var dlen4 = indexData.dnarr.length;
+						for(var i4=0;i4<dlen4;i4++){%>
+						<div class="cm_pc_12 <%if(i4>0){%>cm_dn<%}%>">
+							<img class="cm_h17 cm_bs100 cm_fc " src="<%=indexData.dnarr[i4].img%>" />
+						</div>
+						<%}%>
+				</li>
+				<li class="cm_pc_12 cm_prl05 cm_lh1 cm_ti2 cm_mb05">
+					<span class="cm_fs08 cm_c1c">
+						<%=indexData.about%>
+					</span>
+				</li>
+			</ul>
+			<% include ../components/foot.html %>
+		</div>
+	</div>
+	<script src="<%=site.path%>/bundle/donate_index.js"></script>
+	<% include ../common/footer.html %>
