@@ -5,19 +5,19 @@
 
 ---
 
-# 如果要开发webapp或跨平台应用
+## 如果要开发webapp或跨平台应用
  - 想用vue的，请用 https://github.com/womendi/vueapp
  - 想用react的，请用 https://github.com/womendi/react-app-ie8
  
 ---
 
-# 1.0.0版本--2017.11.28
-# 重建仓库--2018.06.03
-# 1.0.1版本--2018.06.08
+## 1.0.0版本--2017.11.28
+## 重建仓库--2018.06.03
+## 1.0.1版本--2018.06.08
 
 ---
 
-# 代码目录结构
+## 代码目录结构
 
 ### 习惯vue后，改为与vueapp类似(https://github.com/womendi/vueapp)
  - build           ------webpack配置目录
@@ -33,14 +33,14 @@
 
 ---
 
-# clone
+## clone
  - $ git clone https://github.com/womendi/express-multipage.git
 
-# 安装依赖
+## 安装依赖
  - $ cd express-multipage
  - $ npm install
 
-# 开发环境
+## 开发环境
 
 ### 启动应用1：不使用pm2 (热更新代码，手动刷新页面，支持IE8调试)
  - 一个cmd窗口：$ npm run dev  或  npm start
@@ -59,13 +59,13 @@
  - 不使用pm2:在各窗口按Ctrl+C
  - 使用pm2:按Ctrl+C再执行$ pm2 stop build/dev.js(或者$ pm2 kill)
 
-# 生产环境
+## 生产环境
  - 同开发环境一样的执行命令使用pm2启动应用
  - 修改端口：./config/index.js中port参数
 
 ---
 
-# 兼容性:
+## 兼容性:
 
 ### 兼容pc浏览器
  - 兼容ie8:测试了win10中的ie11浏览器选用文档模式为IE8正常、win7中IE8浏览器正常;IETester0.5.4(按钮新建IE各版本)测试只有ie10与默认版本正常
