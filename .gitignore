@@ -4,5 +4,5 @@ node_modules/
 .vs/
 www_logs/
 nbproject/
-views_assets/bundle/
+bundle/
 npm-debug.log

@@ -1,6 +1,6 @@
 {
   "name": "express-multipage",
-  "script": "./build.js",
+  "script": "./build/dev.js",
   "watch": true,
   "ignore_watch": [
     "node_modules",
@@ -9,9 +9,7 @@
     ".idea",
     ".vs",
     "nbproject",
-    "views",
-    "views_actions",
-    "views_assets"
+    "src/views"
   ],
   "error_file": "./www_logs/app_err.log",
   "out_file": "./www_logs/app_out.log",

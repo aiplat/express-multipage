@@ -1,0 +1,48 @@
+<% include ../common/header.html %>
+	<div class="cm_main2">
+		<div class="cm_main">
+			<% include ../components/head.html %>
+				<ul class="cm_pc_12 cm_mtb3">
+					<li class="cm_pc_12 cm_mtb1">
+						<div class="img_logo cm_wh7 cm_bs100 cm_br305 cm_fc"></div>
+					</li>
+					<li class="cm_pc_12">
+						<%  var len2 = indexData.length;
+			        for(var k2=0;k2<len2;k2++){%>
+							<ul class="cm_pc_12">
+								<li class="cm_pc_12 cm_prl05">
+									<div class="cm_fl cm_prl05 cm_be cm_hl2 cm_mtb05 cm_br02">
+										<%=k2+1%>、
+											<%=indexData[k2].name%>
+									</div>
+								</li>
+								<li class="cm_pc_12 cm_pd05 cm_tc cm_be">
+									<%
+					var arr = indexData[k2].arr;
+					var len3 = arr.length;
+					for(var k3=0;k3<len3;k3++){%>
+										<div class="cm_pc_12 cm_lh3 cm_br02 cm_bf cm_bb1ce">
+											<a href="<%=arr[k3].url%>" title="<%=arr[k3].name%>" target="_blank">
+												<%if(arr[k3].market){%>
+													<div class="cmtou" v-if="v.market">
+														<%=arr[k3].market%>-
+															<%=arr[k3].name%>
+													</div>
+													<%}else{%>
+														<div class="cmtou" v-else>
+															<%=arr[k3].name%>
+														</div>
+														<%}%>
+											</a>
+										</div>
+										<%}%>
+								</li>
+							</ul>
+							<%}%>
+					</li>
+				</ul>
+				<% include ../components/foot.html %>
+		</div>
+	</div>
+	<script src="<%=site.path%>/bundle/apps_index.js"></script>
+	<% include ../common/footer.html %>
