@@ -46,13 +46,12 @@
  - 一个cmd窗口：$ npm run dev  或  npm start
  - 另一个cmd窗口：$ npm run watch
 
-
 ### 启动应用2：使用pm2 (热更新代码，手动刷新页面，支持IE8调试)
  - $ npm run pm2
  - 其间首先会打包js文件，然后启动pm2，最后webpack --watch js文件变化
- - 其中看到这句时：Webpack is watching the files…cmd窗口代码不再变动
 
 ### 查看应用
+ - 其中看到这句时：Webpack is watching the files…cmd窗口代码不再变动
  - 打开 http://本地ip:1329，方便手机在局域网访问
 
 ### 关闭应用
@@ -60,7 +59,8 @@
  - 使用pm2:按Ctrl+C再执行$ pm2 stop build/dev.js(或者$ pm2 kill)
 
 ## 生产环境
- - 同开发环境一样的执行命令使用pm2启动应用
+ - 启动应用：$ pm2 start build/dev.js
+ - 关闭应用: $ pm2 stop build/dev.js(或者$ pm2 kill)
  - 修改端口：./config/index.js中port参数
 
 ---
