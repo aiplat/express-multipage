@@ -46,8 +46,8 @@
  - 一个cmd窗口：$ npm run dev  或  npm start
  - 另一个cmd窗口：$ npm run watch (注：仅支持监听build/build.js中文件变化，即不包含express路由层js变化)
 
-### 启动应用2：使用pm2 (热更新代码，手动刷新页面，支持IE8调试)
- - $ npm run pm2
+### 启动应用2：使用pm2 (热更新代码，手动刷新页面，支持IE8调试) (建议使用此方式)
+ - $ npm run pm2 
  - 其间首先会打包js文件，然后启动pm2，最后webpack --watch js文件变化
 
 ### 查看应用
