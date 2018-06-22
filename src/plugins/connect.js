@@ -8,7 +8,7 @@ module.exports = (func) => {
 		host: 'localhost',
 		user: 'root',
 		password: 'root',
-		database: 'bcw'
+		database: 'aiplat.com'
 	});
 
 	connection.connect();
@@ -21,7 +21,7 @@ module.exports = (func) => {
 	//connection.end();
 }
 
-
+//连接redis数据库
 //npm install redis
 // var redis = require("redis")
 //   , client;
@@ -39,10 +39,10 @@ module.exports = (func) => {
 // });
 
 // // 设置键值
-// client.set("Testing", "string val", redis.print);
+// client.set("aiplat", "string val", redis.print);
 
 // // 取值
-// client.get("Testing", function(err, replies) {
+// client.get("aiplat", function(err, replies) {
 //     
 // });
 
