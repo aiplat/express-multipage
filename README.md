@@ -44,7 +44,7 @@
 
 ### 启动应用1：不使用pm2 (热更新代码，手动刷新页面，支持IE8调试)
  - 一个cmd窗口：$ npm run dev  或  npm start
- - 另一个cmd窗口：$ npm run watch
+ - 另一个cmd窗口：$ npm run watch (注：仅支持监听build/build.js中文件变化，即不包含express路由层js变化)
 
 ### 启动应用2：使用pm2 (热更新代码，手动刷新页面，支持IE8调试)
  - $ npm run pm2
