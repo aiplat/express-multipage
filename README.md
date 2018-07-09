@@ -1,7 +1,7 @@
 ﻿# express-multipage 多页面应用
  - express+nodejs+less+html5+css3+cmui+ejs+jquery+lazyload+pm2守护进程+兼容ie8
  - 适合开发各种后台管理平台、资讯网站、企业网站等等，也可以用作nodejs接口服务器。
- - 代码实例为单页面应用 http://www.aiplat.com 的多页面版本
+ - 代码实例为单页面应用 http://www.aiplat.com 的多页面版本(旧版本)
 
 ---
 
