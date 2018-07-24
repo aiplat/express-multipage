@@ -1,6 +1,6 @@
 var webpack = require('webpack');
 var UglifyJSPlugin = require('uglifyjs-webpack-plugin');
-var cmfunc = require('../src/plugins/cmfunc');
+var cmnode = require('../src/plugins/cmnode');
 var path = require('path');
 
 var forUglifyJS = {
@@ -22,7 +22,7 @@ var forUglifyJS = {
   },
   sourceMap: false
 };
-var entryes = cmfunc.getEntry('./src/actions/*.js');
+var entryes = cmnode.getEntry('./src/actions/*.js');
 var config = {
   entry: entryes,
   output: {

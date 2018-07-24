@@ -6,7 +6,6 @@
 var conf = require('../config/index');
 global.port = normalizePort(process.env.PORT || conf.port);
 var app = require('../src/app');
-var debug = require('debug')('myapp:server');
 var http = require('http');
 
 /**
@@ -77,7 +76,7 @@ function onError(error) {
   }
 }
 
-var cmfunc = require('../src/plugins/cmfunc');
+var cmnode = require('../src/plugins/cmnode');
 
 /**
  * Event listener for HTTP server "listening" event.
@@ -88,8 +87,7 @@ function onListening() {
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
-  var ip = cmfunc.getIP();
+  var ip = cmnode.getIP();
   console.log('Run successfully.');
   console.log('Listening on http://' + ip + ':' + global.port);
-  //debug('Listening on ' + bind);
 }

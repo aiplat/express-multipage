@@ -25,8 +25,8 @@ var forUglifyJS = {
   sourceMap: false
 }
 
-var cmfunc = require('../src/plugins/cmfunc');
-var entryes = cmfunc.getEntry('./src/actions/*.js');
+var cmnode = require('../src/plugins/cmnode');
+var entryes = cmnode.getEntry('./src/actions/*.js');
 
 const config = {
   entry: entryes,

@@ -4,7 +4,7 @@
 module.exports = (app) => {
 
 	global.http1 = require('../plugins/axios2');//http请求方法
-	global.cmfunc = require('../plugins/cmfunc');
+	global.cmnode = require('../plugins/cmnode');
 	global.errLoad = require('./common/error');
 	//全局格式化时间日期
 	global.moment = require('moment');
