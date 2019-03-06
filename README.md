@@ -53,7 +53,7 @@
 
 ### 查看应用
  - 其中看到这句时：Webpack is watching the files…cmd窗口代码不再变动
- - 打开 http://本地ip:1329，方便手机在局域网访问
+ - 打开 http://本地ip:1329， 方便手机在局域网访问
 
 ### 关闭应用
  - 不使用pm2:在各窗口按Ctrl+C
