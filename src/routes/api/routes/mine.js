@@ -1,9 +1,6 @@
 //创建者：womendi@qq.com
 //日期：2017-11-28
 module.exports = (router, url) => {
-    var path = require('path');
-    var axios = require('axios');
-
     router.get(url + '/a/:id/:page', (req, res, next) => {
         var id = req.params.id;
         var page = req.params.page;

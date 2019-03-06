@@ -2,18 +2,13 @@
 //日期：2017-11-28
 var express = require('express');
 var router = express.Router();
-var path = require('path');
-var axios = require('axios');
-
 var menu = require('../api/static/menu');
-
-
 
 //apps模块接口
 var apps = require('../apps/index');
 router = apps(router, '/apps');
 
-//apps模块接口
+//donate模块接口
 var donate = require('../donate/index');
 router = donate(router, '/donate');
 

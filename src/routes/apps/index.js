@@ -1,10 +1,6 @@
 //创建者：womendi@qq.com
 //日期：2017-11-28
 module.exports = (router, url) => {
-    var path = require('path');
-    var axios = require('axios');
-
-
     var menu = require('../api/static/menu');
 
     router.get(url + '.html', (req, res, next) => {
@@ -29,5 +25,4 @@ module.exports = (router, url) => {
     });
 
     return router;
-
 }

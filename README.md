@@ -6,8 +6,8 @@
 ---
 
 ## 如果要开发webapp或跨平台应用
- - 想用vue的，请用 https://github.com/aiplat/vueapp
- - 想用react的，请用 https://github.com/aiplat/react-app-ie8
+ - 想用vue的，    请用 https://github.com/aiplat/vueapp
+ - 想用react的，  请用 https://github.com/aiplat/react-app-ie8
  - 想用angular的，请用 https://github.com/aiplat/angular-app
  
 ---
@@ -56,24 +56,24 @@
  - 打开 http://本地ip:1329， 方便手机在局域网访问
 
 ### 关闭应用
- - 不使用pm2:在各窗口按Ctrl+C
- - 使用pm2:按Ctrl+C再执行$ pm2 stop build/dev.js(或者$ pm2 kill)
+ - 不使用pm2：在各窗口按Ctrl+C
+ - 使用pm2：按Ctrl+C再执行$ pm2 stop build/dev.js(或者$ pm2 kill)
 
 ## 生产环境
  - 启动应用：$ pm2 start build/dev.js
- - 关闭应用: $ pm2 stop build/dev.js(或者$ pm2 kill)
+ - 关闭应用：$ pm2 stop build/dev.js(或者$ pm2 kill)
  - 修改端口：./config/index.js中port参数
 
 ---
 
-## 兼容性:
+## 兼容性
 
 ### 兼容pc浏览器
- - 兼容ie8:测试了win10中的ie11浏览器选用文档模式为IE8正常、win7中IE8浏览器正常;IETester0.5.4(按钮新建IE各版本)测试只有ie10与默认版本正常
- - 兼容百度浏览器:测试了win10中的百度浏览器版本8.7正常
- - 兼容QQ浏览器:测试了win10中的QQ浏览器版本9.7正常
- - 兼容firefox:测试了win10中的firefox浏览器版本号57.0正常
- - 兼容chrome:测试了win10中的chrome浏览器版本号62正常
+ - 兼容ie8：测试了win10中的ie11浏览器选用文档模式为IE8正常、win7中IE8浏览器正常;IETester0.5.4(按钮新建IE各版本)测试只有ie10与默认版本正常
+ - 兼容百度浏览器：测试了win10中的百度浏览器版本8.7正常
+ - 兼容QQ浏览器：测试了win10中的QQ浏览器版本9.7正常
+ - 兼容firefox：测试了win10中的firefox浏览器版本号57.0正常
+ - 兼容chrome：测试了win10中的chrome浏览器版本号62正常
 
 ### 兼容手机端
 
