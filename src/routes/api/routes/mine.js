@@ -15,11 +15,11 @@ module.exports = (router, url) => {
     });
 
     router.get(url + '/', (req, res, next) => {
-        res.json({ res: 0, message: '/mine', list: [{ name: 'express-multipage', git: 'https://github.com/womendi/express-multipage.git' }] });
+        res.json({ res: 0, message: '/mine', list: [{ name: 'express-multipage', git: 'https://github.com/aiplat/express-multipage.git' }] });
     });
 
     router.get(url + '.html', (req, res, next) => {
-        res.json({ res: 0, message: '/mine', list: [{ name: 'express-multipage', git: 'https://github.com/womendi/express-multipage.git' }] });
+        res.json({ res: 0, message: '/mine', list: [{ name: 'express-multipage', git: 'https://github.com/aiplat/express-multipage.git' }] });
     });
 
     return router;

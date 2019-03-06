@@ -8,7 +8,7 @@ module.exports = (router, url) => {
     var menu = require('../api/static/menu');
 
     router.get(url + '.html', (req, res, next) => {
-        var site = { url: req.originalUrl, title: 'APP下载', keywords: 'express,nodejs,less,html5,css3,webpack,jquery,lazyload', description: 'https://github.com/womendi/express-multipage.git', path: global.path };
+        var site = { url: req.originalUrl, title: 'APP下载', keywords: 'express,nodejs,less,html5,css3,webpack,jquery,lazyload', description: 'https://github.com/aiplat/express-multipage.git', path: global.path };
         var indexData = [{
             "name": "亲信地铁",
             "arr": [

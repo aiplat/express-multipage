@@ -1,13 +1,14 @@
 ﻿# express-multipage 多页面应用
  - express+nodejs+less+html5+css3+cmui+ejs+jquery+lazyload+pm2守护进程+兼容ie8
  - 适合开发各种后台管理平台、资讯网站、企业网站等等，也可以用作nodejs接口服务器。
- - 代码实例为单页面应用 http://www.aiplat.com 的多页面版本(旧版本)
+ - 代码实例为单页面应用 https://aiplat.com 的多页面版本(旧版本)
 
 ---
 
 ## 如果要开发webapp或跨平台应用
- - 想用vue的，请用 https://github.com/womendi/vueapp
- - 想用react的，请用 https://github.com/womendi/react-app-ie8
+ - 想用vue的，请用 https://github.com/aiplat/vueapp
+ - 想用react的，请用 https://github.com/aiplat/react-app-ie8
+ - 想用angular的，请用 https://github.com/aiplat/angular-app
  
 ---
 
@@ -19,7 +20,7 @@
 
 ## 代码目录结构
 
-### 习惯vue后，改为与vueapp类似(https://github.com/womendi/vueapp)
+### 习惯vue后，改为与vueapp类似(https://github.com/aiplat/vueapp)
  - build           ------webpack配置目录
  - config          ------网站配置目录
  - src             ------代码主体目录
@@ -34,7 +35,7 @@
 ---
 
 ## clone
- - $ git clone https://github.com/womendi/express-multipage.git
+ - $ git clone https://github.com/aiplat/express-multipage.git
 
 ## 安装依赖
  - $ cd express-multipage

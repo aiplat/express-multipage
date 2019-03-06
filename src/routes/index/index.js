@@ -27,11 +27,11 @@ router.get('/index.htm', (req, res, next) => {
 });
 
 router.get('/', (req, res, next) => {
-    var site = { url: req.originalUrl, title: 'express-multipage多页面应用', keywords: '#express,nodejs,less,html5,css3,webpack,jquery,lazyload', description: 'https://github.com/womendi/express-multipage.git', path: global.path };
+    var site = { url: req.originalUrl, title: 'express-multipage多页面应用', keywords: '#express,nodejs,less,html5,css3,webpack,jquery,lazyload', description: 'https://github.com/aiplat/express-multipage.git', path: global.path };
     var indexData = {
         "description": "ai智能空间,拥抱人工智能,明天会更好。目前潜心使用vue.js开发h5app:同时兼容wap、web、微信浏览器、微信小程序、android和ios,六个平台界面统一,功能一致,只有app有独立功能。",
         "gitName": "我的git",
-        "gitUrl": "https://github.com/womendi",
+        "gitUrl": "https://github.com/aiplat",
         "cooperation": "商业合作",
         "email": "womendi@qq.com",
     }

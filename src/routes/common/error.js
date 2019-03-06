@@ -4,7 +4,7 @@
 module.exports = (req,res)=>{
     var err = new Error('Not Found');
     err.status = 404;
-    var site = { title: '404', keywords: 'Not Found', description: 'https://github.com/womendi/express-multipage.git', path: global.path};
+    var site = { title: '404', keywords: 'Not Found', description: 'https://github.com/aiplat/express-multipage.git', path: global.path};
 	var assignObj = { site: site};
 	res.render('common/error', assignObj);
 };
